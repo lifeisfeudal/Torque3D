@@ -1,4 +1,8 @@
-cmake_minimum_required (VERSION 2.8.12)
+
+# 3.21 support MSVC 17 (2022)
+cmake_minimum_required (VERSION 3.21.0)
+
+## ##################################################################################
 
 set(TORQUE_APP_NAME "" CACHE STRING "the app name")
 
